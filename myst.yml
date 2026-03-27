@@ -8,8 +8,7 @@ project:
         - scadsai
   affiliations:
     - id: scadsai
-      name: DSC ScaDS.AI
-      institution: Leipzig University
+      name: DSC ScaDS.AI, Leipzig University
       department: Data Science Center ScaDS.AI
       url: https://scads.ai
       ror: https://ror.org/01t4ttr56

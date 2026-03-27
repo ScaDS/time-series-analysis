@@ -37,12 +37,12 @@ jobs:
     - name: Build the book
       run: |
         jupyter book build
-        ls -la _build/html
+        ls -la _build/site
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v4
       with:
-        path: "_build/html"
+        path: "_build/site"
 
     - name: Deploy to GitHub Pages
       id: deployment
