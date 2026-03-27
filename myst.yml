@@ -1,0 +1,40 @@
+version: 1
+project:
+  title: Time Series Analysis - Overview
+  description: "A practical introduction to time series analysis and forecasting with Python"
+  authors:
+    - name: Matthias Täschner
+      affiliations:
+        - scadsai
+  affiliations:
+    - id: scadsai
+      name: DSC ScaDS.AI
+      institution: Leipzig University
+      department: Data Science Center ScaDS.AI
+      url: https://scads.ai
+      ror: https://ror.org/01t4ttr56
+  github: https://github.com/ScaDS/time-series-analysis
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  toc:
+    - file: intro.md
+    - file: 00_load-dwd-data.ipynb
+      title: "00 - Load DWD Data"
+    - file: 01_time-series-properties.ipynb
+      title: "01 - Time Series Properties"
+    - file: 02_tsa-traditional.ipynb
+      title: "02 - Traditional Methods"
+    - file: 03_tsa-ml-dl.ipynb
+      title: "03 - ML & Deep Learning"
+    - file: 04_automl.ipynb
+      title: "04 - AutoML"
+    - file: 05_tsa-transformer.ipynb
+      title: "05 - Transformers"
+site:
+  template: book-theme
+  options:
+    logo: logo.png
+  nav:
+    - title: GitHub
+      url: https://github.com/ScaDS/time-series-analysis

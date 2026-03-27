@@ -1,0 +1,30 @@
+# Guide (user-friendly):
+# https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
+
+[project]
+name = "tsa-overview"
+version = "0.0.1"
+description = "Time Series Analysis - Overview"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "autogluon",
+  "bia-bob",
+  "darts",
+  "ipykernel",
+  "ipywidgets",
+  "jupyter-book>=2",
+  "jupyterlab",
+  "matplotlib",
+  "notebook",
+  "numpy",
+  "optuna",
+  "pandas",
+  "python-dotenv",
+  "scikit-learn",
+  "seaborn",
+  "statsmodels",
+  "tqdm",
+  "wetterdienst",
+]
+[tool.uv]
+package = false

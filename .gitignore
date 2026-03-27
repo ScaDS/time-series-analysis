@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Jupyter Book v2 build output
+_build/
+
+# Trained model artifacts
+*.pt
+*.pt.ckpt
+*.pkl
+
+# Data files
+data/
+
+# Environment variables
+.env
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
