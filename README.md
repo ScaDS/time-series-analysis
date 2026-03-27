@@ -1,6 +1,8 @@
 # Time Series Analysis
 
-A practical introduction to time series analysis and forecasting using Python
+A practical introduction to time series analysis and forecasting using Python.
+
+The notebooks can be viewed as Jupyter Book at: <https://scads.github.io/time-series-analysis/>
 
 ## How to run
 
