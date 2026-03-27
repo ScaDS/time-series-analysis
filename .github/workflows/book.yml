@@ -35,6 +35,8 @@ jobs:
         jupyter-book --version
 
     - name: Build the book
+      env:
+        BASE_URL: /time-series-analysis
       run: |
         jupyter book build --html
         ls -la _build/html

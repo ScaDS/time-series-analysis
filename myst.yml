@@ -33,7 +33,6 @@ project:
 site:
   template: book-theme
   options:
-    base_url: /time-series-analysis
     logo: logo.png
   nav:
     - title: GitHub
